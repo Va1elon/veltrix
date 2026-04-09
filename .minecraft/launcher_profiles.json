@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "Veltrix": {
+      "name": "Veltrix",
+      "type": "custom",
+      "created": "2026-04-04T22:43:20.195Z",
+      "lastUsed": "2026-04-04T22:43:20.195Z",
+      "lastVersionId": "21.10.64",
+      "icon": "Grass"
+    }
+  },
+  "settings": {},
+  "analyticsFailcount": 0,
+  "analyticsToken": "",
+  "clientToken": "f4654cb8e7224facbcaa60b2da523be2",
+  "selectedProfile": "Veltrix",
+  "version": 3
+}

@@ -1,0 +1,9 @@
+{
+  "BaseClientVersion": "client-base-1",
+  "ArchiveFileName": "client-base.zip",
+  "InstalledAtUtc": "2026-04-05T13:20:55.7899135Z",
+  "VersionId": "neoforge-21.10.64",
+  "VersionJsonRelativePath": "versions\\neoforge-21.10.64\\neoforge-21.10.64.json",
+  "MinecraftRootRelativePath": ".minecraft",
+  "InstanceRootRelativePath": "instance"
+}

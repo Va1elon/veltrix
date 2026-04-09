@@ -1,0 +1,825 @@
+JVM info: Eclipse Adoptium - 21.0.10 - 21.0.10+7-LTS
+java.net.preferIPv4Stack=true
+Current Time: 05/04/2026 01:26:43
+Host: maven.neoforged.net [37.19.202.36, 37.19.202.38]
+Host: libraries.minecraft.net [13.107.246.53, 13.107.213.53]
+Host: launchermeta.mojang.com [150.171.109.100]
+Host: piston-meta.mojang.com [13.107.253.45, 13.107.226.45]
+Host: sessionserver.mojang.com [13.107.246.53, 13.107.213.53]
+Found java version 21.0.10
+Target Directory: C:\Users\Va1elon\AppData\Roaming\.minecraft
+Extracting json
+Considering minecraft client jar
+Downloading libraries
+Found 0 additional library directories
+Considering library net.neoforged.fancymodloader:earlydisplay:10.0.32
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\fancymodloader\earlydisplay\10.0.32\earlydisplay-10.0.32.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
+￐ﾰ￐﾿￑ﾀ. 05, 2026 1:26:49 AM net.minecraftforge.installer.Downloader download
+WARNING: Failed to download from https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readFully(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:243)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1509)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1480)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1066)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.MeteredStream.read(MeteredStream.java:131)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3707)
+	at java.base/java.io.InputStream.transferTo(InputStream.java:796)
+	at java.base/java.nio.file.Files.copy(Files.java:3164)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:122)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.neoforged.fancymodloader:loader:10.0.32
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\fancymodloader\loader\10.0.32\loader-10.0.32.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+￐ﾰ￐﾿￑ﾀ. 05, 2026 1:26:54 AM net.minecraftforge.installer.Downloader download
+WARNING: Failed to download from https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readFully(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:243)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1509)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1480)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1066)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.MeteredStream.read(MeteredStream.java:131)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3707)
+	at java.base/java.io.InputStream.transferTo(InputStream.java:796)
+	at java.base/java.nio.file.Files.copy(Files.java:3164)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:122)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.neoforged:accesstransformers:11.0.2
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\accesstransformers\11.0.2\accesstransformers-11.0.2.jar exists. Checksum valid.
+Considering library org.ow2.asm:asm-commons:9.8
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-commons\9.8\asm-commons-9.8.jar exists. Checksum valid.
+Considering library net.neoforged:mergetool:2.0.0:api
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\mergetool\2.0.0\mergetool-2.0.0-api.jar exists. Checksum valid.
+Considering library org.ow2.asm:asm-util:9.8
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-util\9.8\asm-util-9.8.jar exists. Checksum valid.
+Considering library org.ow2.asm:asm-analysis:9.8
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-analysis\9.8\asm-analysis-9.8.jar exists. Checksum valid.
+Considering library org.ow2.asm:asm-tree:9.8
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-tree\9.8\asm-tree-9.8.jar exists. Checksum valid.
+Considering library net.neoforged:bus:8.0.5
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\bus\8.0.5\bus-8.0.5.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/bus/8.0.5/bus-8.0.5.jar
+￐ﾰ￐﾿￑ﾀ. 05, 2026 1:26:59 AM net.minecraftforge.installer.Downloader download
+WARNING: Failed to download from https://maven.neoforged.net/releases/net/neoforged/bus/8.0.5/bus-8.0.5.jar
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readFully(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:243)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1509)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1480)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1066)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.MeteredStream.read(MeteredStream.java:131)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3707)
+	at java.base/java.io.InputStream.transferTo(InputStream.java:796)
+	at java.base/java.nio.file.Files.copy(Files.java:3164)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:122)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library org.ow2.asm:asm:9.8
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm\9.8\asm-9.8.jar exists. Checksum valid.
+Considering library com.electronwill.night-config:toml:3.8.3
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\com\electronwill\night-config\toml\3.8.3\toml-3.8.3.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar
+￐ﾰ￐﾿￑ﾀ. 05, 2026 1:27:04 AM net.minecraftforge.installer.Downloader download
+WARNING: Failed to download from https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readFully(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:243)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1509)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1480)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1066)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.MeteredStream.read(MeteredStream.java:131)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3707)
+	at java.base/java.io.InputStream.transferTo(InputStream.java:796)
+	at java.base/java.nio.file.Files.copy(Files.java:3164)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:122)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library com.electronwill.night-config:core:3.8.3
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\com\electronwill\night-config\core\3.8.3\core-3.8.3.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar
+￐ﾰ￐﾿￑ﾀ. 05, 2026 1:27:09 AM net.minecraftforge.installer.Downloader download
+WARNING: Failed to download from https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readFully(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:243)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1509)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1480)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1066)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.MeteredStream.read(MeteredStream.java:131)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3707)
+	at java.base/java.io.InputStream.transferTo(InputStream.java:796)
+	at java.base/java.nio.file.Files.copy(Files.java:3164)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:122)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.neoforged:JarJarSelector:0.5.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\JarJarSelector\0.5.0\JarJarSelector-0.5.0.jar exists. Checksum valid.
+Considering library net.neoforged:JarJarMetadata:0.5.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\JarJarMetadata\0.5.0\JarJarMetadata-0.5.0.jar exists. Checksum valid.
+Considering library org.apache.maven:maven-artifact:3.9.9
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\apache\maven\maven-artifact\3.9.9\maven-artifact-3.9.9.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar
+java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.jodah:typetools:0.6.3
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\jodah\typetools\0.6.3\typetools-0.6.3.jar exists. Checksum valid.
+Considering library net.minecrell:terminalconsoleappender:1.3.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\minecrell\terminalconsoleappender\1.3.0\terminalconsoleappender-1.3.0.jar exists. Checksum valid.
+Considering library net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\fabricmc\sponge-mixin\0.16.5+mixin.0.8.7\sponge-mixin-0.16.5+mixin.0.8.7.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar
+java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.neoforged.accesstransformers:at-parser:11.0.2
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\accesstransformers\at-parser\11.0.2\at-parser-11.0.2.jar exists. Checksum valid.
+Considering library org.jline:jline-reader:3.20.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\jline\jline-reader\3.20.0\jline-reader-3.20.0.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar
+java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library org.jline:jline-terminal:3.20.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\jline\jline-terminal\3.20.0\jline-terminal-3.20.0.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar
+￐ﾰ￐﾿￑ﾀ. 05, 2026 1:27:30 AM net.minecraftforge.installer.Downloader download
+WARNING: Failed to download from https://maven.neoforged.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readFully(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:243)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1509)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1480)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1066)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.MeteredStream.read(MeteredStream.java:131)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3707)
+	at java.base/java.io.InputStream.transferTo(InputStream.java:796)
+	at java.base/java.nio.file.Files.copy(Files.java:3164)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:122)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.minecraftforge:srgutils:0.4.15
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\minecraftforge\srgutils\0.4.15\srgutils-0.4.15.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar
+￐ﾰ￐﾿￑ﾀ. 05, 2026 1:27:35 AM net.minecraftforge.installer.Downloader download
+WARNING: Failed to download from https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readFully(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:243)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1509)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1480)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1066)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.MeteredStream.read(MeteredStream.java:131)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3707)
+	at java.base/java.io.InputStream.transferTo(InputStream.java:796)
+	at java.base/java.nio.file.Files.copy(Files.java:3164)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:122)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar exists. Checksum valid.
+Considering library com.google.code.findbugs:jsr305:3.0.2
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar exists. Checksum valid.
+Considering library org.checkerframework:checker-qual:3.43.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar exists. Checksum valid.
+Considering library com.google.errorprone:error_prone_annotations:2.28.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar exists. Checksum valid.
+Considering library com.google.j2objc:j2objc-annotations:3.0.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar exists. Checksum valid.
+Considering library org.codehaus.plexus:plexus-utils:3.5.1
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\codehaus\plexus\plexus-utils\3.5.1\plexus-utils-3.5.1.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar
+java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.neoforged.fancymodloader:earlydisplay:10.0.32
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\fancymodloader\earlydisplay\10.0.32\earlydisplay-10.0.32.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
+java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.neoforged.fancymodloader:loader:10.0.32
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\fancymodloader\loader\10.0.32\loader-10.0.32.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+java.net.UnknownHostException: maven.neoforged.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.neoforged:accesstransformers:11.0.2
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\accesstransformers\11.0.2\accesstransformers-11.0.2.jar exists. Checksum valid.
+Considering library org.ow2.asm:asm-commons:9.8
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-commons\9.8\asm-commons-9.8.jar exists. Checksum valid.
+Considering library net.neoforged:mergetool:2.0.0:api
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\mergetool\2.0.0\mergetool-2.0.0-api.jar exists. Checksum valid.
+Considering library org.ow2.asm:asm-util:9.8
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-util\9.8\asm-util-9.8.jar exists. Checksum valid.
+Considering library org.ow2.asm:asm-analysis:9.8
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-analysis\9.8\asm-analysis-9.8.jar exists. Checksum valid.
+Considering library org.ow2.asm:asm-tree:9.8
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-tree\9.8\asm-tree-9.8.jar exists. Checksum valid.
+Considering library net.neoforged:bus:8.0.5
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\bus\8.0.5\bus-8.0.5.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/bus/8.0.5/bus-8.0.5.jar
+java.net.UnknownHostException: maven.neoforged.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library org.ow2.asm:asm:9.8
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm\9.8\asm-9.8.jar exists. Checksum valid.
+Considering library com.electronwill.night-config:toml:3.8.3
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\com\electronwill\night-config\toml\3.8.3\toml-3.8.3.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar
+java.net.UnknownHostException: maven.neoforged.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library com.electronwill.night-config:core:3.8.3
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\com\electronwill\night-config\core\3.8.3\core-3.8.3.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar
+java.net.UnknownHostException: maven.neoforged.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.neoforged:JarJarSelector:0.5.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\JarJarSelector\0.5.0\JarJarSelector-0.5.0.jar exists. Checksum valid.
+Considering library net.neoforged:JarJarMetadata:0.5.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\JarJarMetadata\0.5.0\JarJarMetadata-0.5.0.jar exists. Checksum valid.
+Considering library org.apache.maven:maven-artifact:3.9.9
+Downloading library from https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar
+java.net.UnknownHostException: maven.neoforged.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.jodah:typetools:0.6.3
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\jodah\typetools\0.6.3\typetools-0.6.3.jar exists. Checksum valid.
+Considering library net.minecrell:terminalconsoleappender:1.3.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\minecrell\terminalconsoleappender\1.3.0\terminalconsoleappender-1.3.0.jar exists. Checksum valid.
+Considering library net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7
+Downloading library from https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar
+java.net.UnknownHostException: maven.neoforged.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.neoforged.accesstransformers:at-parser:11.0.2
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\accesstransformers\at-parser\11.0.2\at-parser-11.0.2.jar exists. Checksum valid.
+Considering library org.jline:jline-reader:3.20.0
+Downloading library from https://maven.neoforged.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar
+java.net.UnknownHostException: maven.neoforged.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library org.jline:jline-terminal:3.20.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\jline\jline-terminal\3.20.0\jline-terminal-3.20.0.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar
+java.net.UnknownHostException: maven.neoforged.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library org.lwjgl:lwjgl-tinyfd:3.3.3
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3.jar exists. Checksum valid.
+Considering library org.lwjgl:lwjgl:3.3.3
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3.jar exists. Checksum valid.
+Considering library net.minecraftforge:srgutils:0.4.15
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\minecraftforge\srgutils\0.4.15\srgutils-0.4.15.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar
+java.net.UnknownHostException: maven.neoforged.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar exists. Checksum valid.
+Considering library com.google.code.findbugs:jsr305:3.0.2
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar exists. Checksum valid.
+Considering library org.checkerframework:checker-qual:3.43.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar exists. Checksum valid.
+Considering library com.google.errorprone:error_prone_annotations:2.28.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar exists. Checksum valid.
+Considering library com.google.j2objc:j2objc-annotations:3.0.0
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar exists. Checksum valid.
+Considering library org.codehaus.plexus:plexus-utils:3.5.1
+Downloading library from https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar
+java.net.UnknownHostException: maven.neoforged.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.neoforged:neoform:1.21.10-20251010.172816:mappings@tsrg.lzma
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\neoform\1.21.10-20251010.172816\neoform-1.21.10-20251010.172816-mappings.tsrg.lzma exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/neoform/1.21.10-20251010.172816/neoform-1.21.10-20251010.172816-mappings.tsrg.lzma
+java.net.UnknownHostException: maven.neoforged.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.neoforged.installertools:installertools:4.0.6:fatjar
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\installertools\installertools\4.0.6\installertools-4.0.6-fatjar.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/installertools/installertools/4.0.6/installertools-4.0.6-fatjar.jar
+java.net.UnknownHostException: maven.neoforged.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+Considering library net.neoforged:neoforge:21.10.64:universal
+File C:\Users\Va1elon\AppData\Roaming\.minecraft\libraries\net\neoforged\neoforge\21.10.64\neoforge-21.10.64-universal.jar exists. Invalid checksum, deleting file.
+Downloading library from https://maven.neoforged.net/releases/net/neoforged/neoforge/21.10.64/neoforge-21.10.64-universal.jar
+java.net.UnknownHostException: maven.neoforged.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:128)
+	at net.minecraftforge.installer.Downloader.download(Downloader.java:120)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:80)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:86)
+	at net.minecraftforge.installer.actions.ClientInstall.run(ClientInstall.java:113)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:174)
+These libraries failed to download. Try again.
+
+net.neoforged.fancymodloader:earlydisplay:10.0.32
+net.neoforged.fancymodloader:loader:10.0.32
+net.neoforged:bus:8.0.5
+com.electronwill.night-config:toml:3.8.3
+com.electronwill.night-config:core:3.8.3
+org.apache.maven:maven-artifact:3.9.9
+net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7
+org.jline:jline-reader:3.20.0
+org.jline:jline-terminal:3.20.0
+net.minecraftforge:srgutils:0.4.15
+org.codehaus.plexus:plexus-utils:3.5.1
+net.neoforged.fancymodloader:earlydisplay:10.0.32
+net.neoforged.fancymodloader:loader:10.0.32
+net.neoforged:bus:8.0.5
+com.electronwill.night-config:toml:3.8.3
+com.electronwill.night-config:core:3.8.3
+org.apache.maven:maven-artifact:3.9.9
+net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7
+org.jline:jline-reader:3.20.0
+org.jline:jline-terminal:3.20.0
+net.minecraftforge:srgutils:0.4.15
+org.codehaus.plexus:plexus-utils:3.5.1
+net.neoforged:neoform:1.21.10-20251010.172816:mappings@tsrg.lzma
+net.neoforged.installertools:installertools:4.0.6:fatjar
+net.neoforged:neoforge:21.10.64:universal
+There was an error during installation
