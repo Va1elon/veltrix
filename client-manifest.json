@@ -27438,6 +27438,12 @@
                       "Url":  "https://raw.githubusercontent.com/Va1elon/veltrix/main/instance/start-client.bat",
                       "Sha256":  "a41711e4c1e30761f755d3e2b8ec2ea33f6612623f2044a9ee2937bbf595557b",
                       "Size":  479
+                  },
+                  {
+                      "Path": "instance/mods/examplemod-1.0.0.jar",
+                      "Url": "https://ТВОЙ-ХОСТ/examplemod-1.0.0.jar",
+                      "Sha256": "21c0a119537e94e546bd09dee05f7b1b61c030b827508557a28a7a03a729cc63",
+                      "Size": 22828
                   }
               ]
 }
