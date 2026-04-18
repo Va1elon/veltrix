@@ -27440,8 +27440,8 @@
                       "Size":  479
                   },
                   {
-                      "Path": ".minecraft/mods/examplemod-1.0.0.jar",
-                      "Url": "https://raw.githubusercontent.com/Va1elon/veltrix/main/.minecraft/mods/examplemod-1.0.0.jar",
+                      "Path": "instance/mods/examplemod-1.0.0.jar",
+                      "Url": "https://raw.githubusercontent.com/Va1elon/veltrix/main/instance/mods/examplemod-1.0.0.jar",
                       "Sha256": "21C0A119537E94E546BD09DEE05F7B1B61C030B827508557A28A7A03A729CC63",
                       "Size": 22828
                   }
