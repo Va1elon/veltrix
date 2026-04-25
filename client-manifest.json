@@ -27314,12 +27314,6 @@
                       "Size":  37
                   },
                   {
-                      "Path":  "instance/mods/README_PUT_MODS_HERE.txt",
-                      "Url":  "https://raw.githubusercontent.com/Va1elon/veltrix/main/instance/mods/README_PUT_MODS_HERE.txt",
-                      "Sha256":  "06b2683ee9dc08af86a02db47934dc9f1b9249279955da29aa9a76f813053a5b",
-                      "Size":  409
-                  },
-                  {
                       "Path":  "instance/natives/neoforge-21.10.64/glfw.dll",
                       "Url":  "https://raw.githubusercontent.com/Va1elon/veltrix/main/instance/natives/neoforge-21.10.64/glfw.dll",
                       "Sha256":  "affa7e54eb0dedce4a5721c327c1a16035edbbd039cd402e08107d6d2d55eb1a",
